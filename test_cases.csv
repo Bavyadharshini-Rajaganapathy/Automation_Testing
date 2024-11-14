@@ -1,0 +1,21 @@
+endpoint,name,email,password,Reenterpassword,Expected Status Code
+submit-user,John Doe,john.doe@example.com,password123,password123,200
+submit-user,Jane,jane@example.com,pass12,pass12,200
+submit-user,,jane@example.com,password123,password123,400
+submit-user,John Doe,,password123,password123,400
+submit-user,Alice,alice@example.com,12345,12345,400
+submit-user,Bob,bob@example.com,password123,password124,400
+submit-user,Charlie,charlie@example.com,abcdefg,abcdefg,200
+submit-user,David,david@domain.com,password12,password12,200
+submit-user,Eve,eve@example.com,longpassword,longpassword,200
+submit-user,Frank,frank@example.com,pass,pass,400
+submit-user,Grace,grace@example,password123,password123,400
+submit-user,Helen,helen@example.com,password123,password321,200
+submit-user,Ivy,ivy@example.com,mypassword123,mypassword123,200
+submit-user,Jack,jack@example.com,123456,123456,400
+submit-user,Kathy,kathy@example.com,short,short,400
+submit-user,Louis,louis@example.com,longpassword123,longpassword123,200
+submit-user,Mike,mike@example.com,m1ke123,m1ke123,200
+submit-user,Nancy,nancy@domain.com,passw0rd,passw0rd,200
+submit-user,Oscar,oscar@example.com,password12345,password12345,200
+submit-user,Paul,paul@example.com,pass12345,pass12345,200
